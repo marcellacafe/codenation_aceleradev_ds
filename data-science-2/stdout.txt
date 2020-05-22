@@ -1,0 +1,40 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.3, pytest-5.0.1, py-1.8.0, pluggy-0.12.0 -- C:\Users\marcella\AppData\Local\Continuum\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\marcella\codenation\data-science-2
+plugins: arraydiff-0.3, doctestplus-0.3.0, openfiles-0.3.2, remotedata-0.3.1
+collecting ... collected 7 items
+
+test_submit.py::test_q1 PASSED                                           [ 14%]
+test_submit.py::test_q2 PASSED                                           [ 28%]
+test_submit.py::test_q3 PASSED                                           [ 42%]
+test_submit.py::test_q4 PASSED                                           [ 57%]
+test_submit.py::test_q5 PASSED                                           [ 71%]
+test_submit.py::test_q6 PASSED                                           [ 85%]
+test_submit.py::test_q7 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\matplotlib\backend_bases.py:57
+C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\matplotlib\backend_bases.py:57
+  C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\matplotlib\backend_bases.py:57: DeprecationWarning: PILLOW_VERSION is deprecated and will be removed in a future release. Use __version__ instead.
+    from PIL import PILLOW_VERSION
+
+C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\parso\python\tree.py:46
+  C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\parso\python\tree.py:46: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+    from collections import Mapping
+
+C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\ipywidgets\widgets\widget.py:280
+  C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\ipywidgets\widgets\widget.py:280: DeprecationWarning: Widget registration using a string name has been deprecated. Widget registration now uses a plain `@register` decorator.
+    warnings.warn("Widget registration using a string name has been deprecated. Widget registration now uses a plain `@register` decorator.", DeprecationWarning)
+
+C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\ipywidgets\widgets\widget_upload.py:45
+  C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\ipywidgets\widgets\widget_upload.py:45: DeprecationWarning: Traits should be given as instances, not types (for example, `Int()`, not `Int`). Passing types is deprecated in traitlets 4.1.
+    metadata = List(Dict, help='List of file metadata').tag(sync=True)
+
+C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\ipywidgets\widgets\widget_upload.py:46
+  C:\Users\marcella\AppData\Local\Continuum\anaconda3\lib\site-packages\ipywidgets\widgets\widget_upload.py:46: DeprecationWarning: Traits should be given as instances, not types (for example, `Int()`, not `Int`). Passing types is deprecated in traitlets 4.1.
+    data = List(Bytes, help='List of file content (bytes)').tag(sync=True, from_json=content_from_json)
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+- generated xml file: C:\Users\marcella\codenation\data-science-2\output.xml --
+==================== 7 passed, 6 warnings in 8.99 seconds =====================
